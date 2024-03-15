@@ -1,29 +1,79 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 :root {
-    --corPrimaria : rgb(52, 190, 39);
-    --corSecundaria : #276dbe;
+    --corPrimaria : #84b6f4;
+    --corSecundaria : #c3608c;
     --branco : #fff;
     --preto : #000;
 }
 
-#cabecalho{
-    width: 300px;
-    height: 300px;
+#cabecalho, #rodape{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: var(--corPrimaria);
 }
 
-button{
-    width: 300px;
-    height: 300px;
-    background-color: var(--corPrimaria);
+#cabecalhoEsquerda, #cabecalhoDireita{
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
-#rodape{
-    width: 300px;
-    height: 300px;
-    background-color: var(--corPrimaria);
+.catalogo{
+    margin: 20px 0px;
+}
+
+#cabecalhoEsquerda img{
+    width: 40px;
+}
+
+.produtoDescrição{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.produtos{
+    width: 80%;
+    margin: 0% auto;
+    display: flex;
+    gap: 20px;
+}
+
+.produtoDescrição h4{
+    background-color: var(--corSecundaria);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#produto1{
+    background-image: url(../images/bolo1.jpg);
+}
+
+#produto2{
+    background-image: url(../images/bolo2.jpg);
+}
+
+#produto3{
+    background-image: url(../images/bolo3.jpg);
+}
+
+.titulosCatalogos{
+    margin: 20px;
+    color: var(--corSecundaria);
 }
