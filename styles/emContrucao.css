@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #4c88d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mensagem{
+    width: 80%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+img{
+    width: 80px;
+}
