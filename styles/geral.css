@@ -1,3 +1,15 @@
+@font-face {
+    font-family: CakeCafe ;
+    src: url(../fonts/cakecafe/Cakecafe.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Bubbly ;
+    src: url(../fonts/bubbly_3/Bubbly-Regular.otf);
+    font-weight: normal;
+}
+
 *{
     margin: 0%;
     padding: 0%;
@@ -15,6 +27,7 @@
 h2, h3{
     color: var(--corSecundaria);
     margin: 20px;
+    font-family: Poppins ;
 }
 
 /* cabeçalho */
@@ -27,6 +40,10 @@ header, footer{
     align-items: center;
     background-color: var(--corPrimaria);
     color: var(--branco);
+}
+
+header h1{
+    font-family: CakeCafe ;
 }
 
 #cabecalhoEsquerda, #cabecalhoDireita{
